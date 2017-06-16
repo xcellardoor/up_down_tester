@@ -10,3 +10,8 @@ Since I run a lot of VPN-only services myself and a few small websites for frien
 
 
 This code is part of my effort to better myself in Golang and coding in general, as well as Git management.
+
+##Permissions
+Some Linux distros are pre-configured to treat ICMP transmissions as a privileged function. If you wish to use PING as a testing mechanism you can either:
+* Run this program as root (do you trust me?!)
+* Reconfigure your machine to allow regular users, or members of a group, to ping (GIYF)

@@ -1,0 +1,12 @@
+#Configuration File for Up-Down-Tester
+
+[ip-addresses]
+
+8.8.8.8, ping
+51.15.42.19, ping
+
+
+[domains]
+samcater.com, http
+bt.com, http
+gentoo.org, ping
