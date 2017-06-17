@@ -3,12 +3,15 @@ package main
 
 import (
 	"fmt" //Text output, format and control
-	"io/ioutil" //Used for some lower level stuff
+	//"io/ioutil" //Used for some lower level stuff
 	"log" //Standard Go log function
-	"net/http" //Standard Go module for making HTTP GET requests, if we get a reply with content #winning
+	//"net/http" //Standard Go module for making HTTP GET requests, if we get a reply with content #winning
 
 	"github.com/fatih/color" //Custom module used for Terminal Coloration
-  
+  "os"
+  "net"
+  "time"
+
   "github.com/tatsushid/go-fastping" //Ping module from Tatsushid on Github, used for Ping functionality
 )
 
@@ -23,7 +26,7 @@ func pingTest(){
     fmt.Printf("IP Addr: %s receive, RTT: %v\n", addr.String(), rtt)
   }
   p.OnIdle = func(){
-    fmt.Println("Finish")
+    fmt.Println(color.GreenString("Finish"))
   }
   err = p.Run()
   if err != nil{log.Fatal(err)}
