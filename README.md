@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/xcellardoor/up_down_tester.png?label=ready&title=Ready)](https://waffle.io/xcellardoor/up_down_tester?utm_source=badge)
 # Up-Down Tester
 
 Build Status Be Like - [![Build Status](https://travis-ci.org/xcellardoor/up_down_tester.svg?branch=master)](https://travis-ci.org/xcellardoor/up_down_tester)
